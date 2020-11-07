@@ -1,4 +1,4 @@
-# API Gateway provision
+# API Gateway provisioning
 
 ### Main features:
 
