@@ -11,3 +11,7 @@ variable "api_stage" {}
 variable "lb_dns_name" {}
 
 variable "api_port" {}
+
+variable "binary_media_types" {
+  default = ["*/*"]
+}

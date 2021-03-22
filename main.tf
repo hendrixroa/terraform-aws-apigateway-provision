@@ -1,10 +1,7 @@
 // Api Gateway rest api resource of `Regional` type
 resource "aws_api_gateway_rest_api" "api" {
-  name = "${var.app_name}_platform"
-
-  binary_media_types = [
-    "*/*",
-  ]
+  name               = "${var.app_name}_platform"
+  binary_media_types = var.binary_media_types
 
   endpoint_configuration {
     types = ["REGIONAL"]
